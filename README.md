@@ -11,26 +11,26 @@ We proffer a 2-fold taxonomy for 5-level Constructiveness and 3-level Politeness
 
 ### 1) Data Pre-Processing :
 
-This [notebook](https://github.com/meithnav/IIT-2Layers/blob/main/notebooks/preprocess-and-generate-embeddings.ipynb) consists all the code for EDA like data cleaning, resolving data imbalance by upsampling, ohe-hot-encoding the y-labels and finally storing the embeds.
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/preprocess-and-generate-embeddings.ipynb) consists all the code for EDA like data cleaning, resolving data imbalance by upsampling, ohe-hot-encoding the y-labels and finally storing the embeds.
 
 ### 2) Our Proposed Model and Baselines :
 
-This [notebook](https://github.com/meithnav/IIT-2Layers/blob/main/notebooks/our-proposed-multitask-model-AND-baselines.ipynb) consists of our Proposed model (Toxic-Bert) and different variants of our competitve baselines analysis, wherein we feed <b> HateBERT/SciBERT/RoBERTa Embeddings</b> (either of them at a time). In the notebook `uncomment` the appropriate `name` and `embed_model_name`, the one that you want to reproduce and let the others be commented. 
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/our-proposed-multitask-model-AND-baselines.ipynb) consists of our Proposed model (Toxic-Bert) and different variants of our competitve baselines analysis, wherein we feed <b> HateBERT/SciBERT/RoBERTa Embeddings</b> (either of them at a time). In the notebook `uncomment` the appropriate `name` and `embed_model_name`, the one that you want to reproduce and let the others be commented. 
 
 ### 3) Ablation Study :
 
-This [notebook](https://github.com/meithnav/IIT-2Layers/blob/main/notebooks/ablations-model.ipynb) consists of the ablation variants of our proposed model to examine the efficacy of the layers in our model by experimenting with its ablation variants. We have considered the following models - WithoutBiLSTM WithoutAttention layer, WithoutBothBiLSTM-and-Attention layers, and WithoutBoth layers.
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/ablations-model.ipynb) consists of the ablation variants of our proposed model to examine the efficacy of the layers in our model by experimenting with its ablation variants. We have considered the following models - WithoutBiLSTM WithoutAttention layer, WithoutBothBiLSTM-and-Attention layers, and WithoutBoth layers.
 
 NOTE: Make sure you comment out the appropriate layers in the `DEFINE MODEL` section while running the notebook and update `is_BiLSTM flag` to true or false as appropriate.
 
 
 ### 4) Inter Annotator Agreement :
-This [notebook](https://github.com/meithnav/IIT-2Layers/blob/main/IAA/iaa.ipynb) depicts Fleiss Kappa, Krippendroff Alpha, and Cohen Kappa scores, suggesting how well multiple annotators have annoatated the review following the proposed annotation guidelines. 
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/interlayer-correlation.ipynb) depicts Fleiss Kappa, Krippendroff Alpha, and Cohen Kappa scores, suggesting how well multiple annotators have annoatated the review following the proposed annotation guidelines. 
 
 
 ### 5) Heatmap Analysis :
 
-This [notebook](https://github.com/meithnav/IIT-2Layers/blob/main/notebooks/heatmap.ipynb) loads our proposed model and produces a sentence-wise heatmap distribution for aspect categories for 2 selected Reviews which is discussed in depth in our paper.
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/heatmap.ipynb) loads our proposed model and produces a sentence-wise heatmap distribution for aspect categories for 2 selected Reviews which is discussed in depth in our paper.
 
 #### IMPORTANT POINTS BEFORE RUNNING :
 
