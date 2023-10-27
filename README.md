@@ -32,7 +32,7 @@ This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/mai
 
 This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/notebooks/heatmap.ipynb) loads our proposed model and produces a sentence-wise heatmap distribution for aspect categories for 2 selected Reviews which is discussed in depth in our paper.
 ### 6) Qualitative Insight into Curated Dataset:
-This [notebook] contains thematic analysis, contextual understanding, constructive criticism, and politeness distribution by venue.
+This [notebook](https://github.com/PrabhatkrBharti/Multi-Label-Critique/blob/main/Qualitative%20Insight%20into%20Curated%20Dataset.ipynb) contains thematic analysis, contextual understanding, constructive criticism, and politeness distribution by venue.
 
 #### IMPORTANT POINTS BEFORE RUNNING :
 
